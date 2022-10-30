@@ -4,25 +4,26 @@ import {
   FaGithub,
   FaLinkedin,
   FaEnvelope,
+  FaTwitter,
 } from "react-icons/fa";
 
 export const links = [
   {
     index: 0,
     title: "Find me on Github",
-    href: "https://github.com/noworneverev",
+    href: "https://github.com/rusiqe",
     icon: <FaGithub />,
   },
   {
     index: 1,
     title: "Find me on LinkedIn",
-    href: "https://www.linkedin.com/in/yan-ying-liao/",
+    href: "https://www.linkedin.com/in/technicalwritertau/",
     icon: <FaLinkedin />,
   },
   {
     index: 2,
     title: "Contact me via email",
-    href: "mailto:n9102125@gmail.com",
+    href: "mailto:rusiqe@gmail.com",
     icon: <FaEnvelope />,
   },
   {
@@ -33,8 +34,8 @@ export const links = [
   },
   {
     index: 4,
-    title: "Find me on Blog",
-    href: "https://noworneverev.github.io/blog/",
-    icon: <FaBlog />,
+    title: "Find me on Twitter",
+    href: "https://twitter.com/rusiqe",
+    icon: <FaTwitter />,
   },
 ];
